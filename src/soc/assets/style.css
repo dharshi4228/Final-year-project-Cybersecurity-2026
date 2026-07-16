@@ -1,0 +1,20 @@
+body {
+  background:#0f172a;
+  color:#e5e7eb;
+  font-family: Arial;
+  margin:20px;
+}
+.card {
+  display:inline-block;
+  padding:20px;
+  width:22%;
+  margin:1%;
+  border-radius:8px;
+  text-align:center;
+  font-size:18px;
+}
+.blue {background:#1e40af;}
+.red {background:#991b1b;}
+.green {background:#166534;}
+.yellow {background:#92400e;}
+canvas {background:#020617;padding:10px;border-radius:10px;}

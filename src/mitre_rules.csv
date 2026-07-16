@@ -1,0 +1,9 @@
+pattern,MITRE_Tactic,Technique_ID,Technique_Name,Likely_APT_Group
+"ssh.*(failed|invalid)|brute force","Initial Access","T1110","Brute Force","APT28;APT33"
+"wget|curl","Execution","T1059","Command and Scripting Interpreter","APT29;Lazarus Group"
+"chmod \+x|\.\/.*\.sh","Execution","T1059.004","Unix Shell","Unknown"
+"nc -e|netcat|bash -i|/dev/tcp/","Command and Control","T1071.001","Application Layer C2","Lazarus Group"
+"scp|rsync|exfil","Exfiltration","T1041","Exfiltration Over C2","APT41"
+"nmap|masscan|tcpdump|zenmap","Discovery","T1046","Network Service Scanning","Unknown"
+"adduser|useradd|passwd -l","Persistence","T1136","Create Account","FIN7"
+"base64 .*-d|python -c|perl -e","Defense Evasion","T1027","Obfuscated Files or Information","Equation Group"
